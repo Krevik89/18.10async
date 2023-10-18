@@ -1,0 +1,14 @@
+﻿<Window x:Class="Fabric_await_sql.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Fabric_await_sql"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas>
+        <Button Height="30" Width="150" Canvas.Left="571" Canvas.Top="24"  />
+        <TextBox x:Name="textbox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="395" Height="60" Canvas.Left="10" Canvas.Top="24"/>
+        <DataGrid x:Name="datagrid1" Canvas.Top="178" Width="790" HorizontalAlignment="Center" Height="246" VerticalAlignment="Top"/>
+    </Canvas>
+</Window>
